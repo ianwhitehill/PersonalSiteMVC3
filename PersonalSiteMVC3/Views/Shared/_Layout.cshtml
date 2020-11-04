@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ian Whitehill" />
+    <meta name="keywords" content="HTML5, JavaScript, jQuery, jQueryUI, CSS3, Responsive/Mobile Web Development, Bootstrap, ReactJS, Visual Studio, C#.NET, ASP.NET, LINQ, MVC, EF, ADO.NET, SQL, SQL Server, SSMSE jQuery" />
+    <meta name="description" content="Ian Whitehill full stack web developer" />
+    <title>Ian Whitehill | @ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/css/custom.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/image/ianicon.jpg" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="shell">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav text-center">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Resume", "About", "Home")</li>
+                    <li>@Html.ActionLink("Projects", "Project", "Home")</li>
+                    <li>@Html.ActionLink("Links", "Link", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <footer class="text-center footer shell">
+        <p class="footerstyle"> &copy; @DateTime.Now.Year - Ian Whitehill  <a href="http://www.linkedin.com/in/ian-whitehill-b9713a1b3" target="_blank" class="footerstyle"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>  <a href="https://github.com/ianwhitehill" target="_blank" class="footerstyle"><i class="fa fa-github-square" aria-hidden="true"></i></a>  @*<a href="https://twitter.com/ian_whitehill" target="_blank" class="footerstyle"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>*@  <a href="https://www.facebook.com/ian.r.whitehill" target="_blank" class="footerstyle"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> </p>
+    </footer>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

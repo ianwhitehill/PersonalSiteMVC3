@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main class="shell">
+    <div class="row">
+        <section class="col-sm-8">
+            <h2>About Me</h2>
+            <p class="tab">
+                Hi, my name is Ian Whitehill. I was previously a Military Police Officer in the US Army where I held a security clearance. During my 6-year enlistment I actively assisted in overseas operations, both combat and peace keeping, in addition to stateside disaster relief missions. I was also a train conductor with Union Pacific Railroad for 5 years. I held many different licenses and qualifications including Footboard Yard Master where I supervised all crews and movement of freight inside the yard during my shift. I am looking to apply the critical thinking skills, discipline, and teamwork I have learned to my passion for technology as a developer. <br/> I most recently worked for a security company designing, programming, and installing commercial security systems as well as managing their IT needs. I dealt often with UI and UX issues when choosing products and software for customers. I used my knack for problem-solving during installation of camera and security networks. I think this experience gives me a unique perspective when building an application. In my free time I enjoy camping with my family and doing home improvement projects. You can view some of my projects and code on this site or on <a href="http://www.linkedin.com/in/ian-whitehill-b9713a1b3" target="_blank" class="clicklink">LinkedIn</a>.
+            </p>
+        </section>
+        <section class="col-sm-4">
+            <br/>
+            <br/>
+            <br/>
+            <div class="thumbnail">
+                <img src="~/Content/image/ian.jpg" />
+            </div>
+            <div class="text-center">
+                <span>@Html.ActionLink("Contact Me", "Contact", "Home", new { @class = "btn btn-primary"})</span>
+            </div>
+        </section>
+    </div>
+</main>

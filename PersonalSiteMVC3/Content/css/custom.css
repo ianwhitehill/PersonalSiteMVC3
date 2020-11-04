@@ -1,0 +1,124 @@
+﻿.shell {
+    margin: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+body {
+    font-family: Consolas;
+    color: #ffffff;
+    background-image: url('../image/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #2d2d30;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #2d2d30;
+    color: #38a99e;
+    font-size: 18px;
+    border: none;
+}
+
+    .btn:hover {
+        background-color: #2d2d30;
+        color: #996f48;
+        font-size: 18px;
+        border: none;
+    }
+
+.navbar-default .navbar-nav > li > a {
+    color: #38a99e;
+}
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #996f48;
+    }
+
+h2 {
+    color: #0179c9;
+}
+
+.navbar {
+    border: none;
+}
+
+.footerstyle {
+    color: #7ccfff;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.clicklink {
+    color: #bc795a;
+    font-weight: bold;
+}
+
+    .clicklink:hover {
+        color: #48823e;
+        text-decoration: none;
+    }
+
+.resume {
+    padding: 10px;
+    background-color: rgba(51, 51, 51, .9);
+    border-radius: 4px;
+}
+
+dd {
+    margin-left: 10px;
+}
+
+.holding {
+    color: red;
+    font-size: 30px;
+    background-color: rgba(51, 51, 51, .9);
+}
+
+.footer {
+    background-color: rgba(51, 51, 51, .9);
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+    p {
+        padding: 2px;
+        background-color: rgba(51, 51, 51, .9);
+        border-radius: 4px;
+    }
+
+    .tab {
+        display: inline-block;
+        margin: 0px;
+    }
+
+    #classmates {
+        padding: 10px;
+        background-color: rgba(60, 71, 95, .9);
+        border-radius: 4px;
+    }
+
+    .body-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .shell {
+        margin: 5px;
+    }
+
+    textarea {
+        min-height: 5em;
+    }
+}
