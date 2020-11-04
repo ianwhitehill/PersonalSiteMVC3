@@ -134,6 +134,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\custom.css" />
+    <Content Include="Content\image\api.jpg" />
     <Content Include="Content\image\background.jpg" />
     <Content Include="Content\image\c.jpg" />
     <Content Include="Content\image\frontend.jpg" />
@@ -141,6 +142,7 @@
     <Content Include="Content\image\ian.jpg" />
     <Content Include="Content\image\ianicon.jpg" />
     <Content Include="Content\image\mvc.jpg" />
+    <Content Include="Content\image\react.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -149,6 +151,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\pdf\IanLetterofReference.pdf" />
     <Content Include="Content\pdf\IanWhitehillResumeIT.pdf" />
+    <Content Include="Content\pdf\SmallBusinessSiteProjectBrief.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
