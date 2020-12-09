@@ -152,6 +152,9 @@
     <Content Include="Content\pdf\IanLetterofReference.pdf" />
     <Content Include="Content\pdf\IanWhitehillResumeIT.pdf" />
     <Content Include="Content\pdf\SmallBusinessSiteProjectBrief.pdf" />
+    <Content Include="Content\pdf\IanWhitehillDocumentation.pdf" />
+    <Content Include="Content\pdf\Project Brief - Job Boardv02192020.pdf" />
+    <Content Include="Content\pdf\Project Requirements for Trellov02192020 %281%29.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -189,6 +192,7 @@
     <Content Include="Views\Project\Dungeon.cshtml" />
     <Content Include="Views\Project\StoreFrontLAB.cshtml" />
     <Content Include="Views\Project\SmallBusinessProject.cshtml" />
+    <Content Include="Views\Project\FinalPorject.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
