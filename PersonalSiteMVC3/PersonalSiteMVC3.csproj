@@ -155,6 +155,7 @@
     <Content Include="Content\pdf\IanWhitehillDocumentation.pdf" />
     <Content Include="Content\pdf\Project Brief - Job Boardv02192020.pdf" />
     <Content Include="Content\pdf\Project Requirements for Trellov02192020 %281%29.pdf" />
+    <Content Include="Content\pdf\Whitehill_Letter_of_Recommendation %281%29.docx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

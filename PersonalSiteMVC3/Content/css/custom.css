@@ -91,6 +91,19 @@ dd {
     border-radius: 4px;
 }
 
+#youTube {
+    width: 420px;
+    height: 315px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 450px) {
+    #youTube {
+        width: 230px;
+        height: 200px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     p {
         padding: 2px;
